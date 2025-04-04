@@ -1,12 +1,11 @@
 package dev.wsem;
 
+import com.github.lalyos.jfiglet.FigletFont;
+import java.io.IOException;
 
-
-/**
- * Hello world!
- */
 public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) throws IOException {
+        String asciiArt = FigletFont.convertOneLine("WSEM le Dr Computeur");
+        System.out.println(asciiArt);
     }
 }
