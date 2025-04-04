@@ -1,4 +1,6 @@
-package dev wsem;
+package dev.wsem;
+
+
 
 /**
  * Hello world!
