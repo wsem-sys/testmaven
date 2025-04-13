@@ -20,7 +20,7 @@ public class App {
      */
     public static void main(String[] args) throws IOException {
         // Texte à afficher en ASCII art
-        String message = "WSEM le Dr Computeur , Merci à SEGA SYLLA";
+        String message = "WSEM le Dr Computeur , Merci à SEGA ";
 
         // Conversion du message en ASCII art
         String asciiArt = FigletFont.convertOneLine(message);
